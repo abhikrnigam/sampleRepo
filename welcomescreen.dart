@@ -55,7 +55,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
               child: Text(
                   'WeathR',
                 style: TextStyle(
-                  fontSize: 60.0,
+                  fontSize: 50.0,
                   color: Colors.white,
                   fontFamily: 'Pacifico',
                 ),
@@ -63,7 +63,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             ),
           Spacer(flex: 1,),
           RawMaterialButton(
-            elevation: 10.0,
+            elevation: 6.0,
             fillColor: Colors.grey[900],
             constraints: BoxConstraints(
               minWidth: 200.0,
@@ -103,7 +103,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             child: Text(
               'Search',
               style: TextStyle(
-                fontSize: 25.0,
+                fontSize: 30.0,
                 color: Colors.white,
                 fontWeight: FontWeight.bold,
 
