@@ -53,7 +53,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
             Material(
               type: MaterialType.transparency,
               child: Text(
-                  'WeathR',
+                  'This is my WeaThR Application which is changed in branch: dev',
                 style: TextStyle(
                   fontSize: 50.0,
                   color: Colors.white,
